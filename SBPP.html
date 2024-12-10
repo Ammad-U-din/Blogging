@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="blog post, dynamic content, storytelling, fashion trends, study abroad, sustainability, eco-friendly fashion, content creation, blog platform, student tips, social media sharing, comment section, blog tags">
+    <title>Blogging Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        .post-content {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .post-content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .post-content img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .post-content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .post-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            color: #777;
+        }
+
+        .post-meta span {
+            font-size: 0.9em;
+        }
+
+        .post-meta .tags {
+            display: flex;
+        }
+
+        .post-meta .tags span {
+            background-color: #eee;
+            padding: 5px 10px;
+            margin-right: 5px;
+            border-radius: 4px;
+        }
+
+        .social-share {
+            margin-bottom: 30px;
+        }
+
+        .social-share a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .social-share a:hover {
+            background-color: #0056b3;
+        }
+
+        .comments {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .comments h3 {
+            margin-bottom: 20px;
+        }
+
+        .comment {
+            margin-bottom: 20px;
+        }
+
+        .comment p {
+            margin-bottom: 5px;
+        }
+
+        .comment .comment-author {
+            font-weight: bold;
+        }
+
+        .comment .comment-date {
+            color: #777;
+            font-size: 0.8em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Blog Post</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="BPL.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="post-content">
+                <h2 id="post-title">Blog Post Title</h2>
+                <img id="post-image" src="https://via.placeholder.com/800x400" alt="Blog Image">
+                <p id="post-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula libero eu 
+                    augue bibendum, at venenatis libero malesuada. Nullam fermentum eros vel enim feugiat, 
+                    ut viverra justo elementum. Morbi suscipit ligula a turpis fringilla dapibus.
+                </p>
+
+                <div class="post-meta">
+                    <span id="post-author">Posted by John Doe</span>
+                    <span id="post-date">Posted on October 23, 2024</span>
+                    <div class="tags" id="post-tags">
+                        <span>#Food</span>
+                        <span>#Cake</span>
+                    </div>
+                </div>
+
+                <div class="social-share">
+                    <a href="#">Share on Facebook</a>
+                    <a href="#">Share on Twitter</a>
+                    <a href="#">Share on LinkedIn</a>
+                </div>
+
+                <div class="comments">
+                    <h3>Comments</h3>
+
+                    <div class="comment">
+                        <p class="comment-author">Jane Doe</p>
+                        <p class="comment-date">October 22, 2024</p>
+                        <p>This site provide me great information.</p>
+                    </div>
+
+                    <div class="comment">
+                        <p class="comment-author">Mike Smith</p>
+                        <p class="comment-date">October 21, 2024</p>
+                        <p>This was very helpful, Thank you</p>
+                    </div>
+
+                    <h4>Leave a comment:</h4>
+                    <form>
+                        <input type="text" placeholder="Your Name" required><br><br>
+                        <textarea placeholder="Your Comment" rows="5" required></textarea><br><br>
+                        <button type="submit">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Blogging Platform | <a href="contact.html" class="text-light">Contact Us</a></p>
+            <a href="Sitemap.html">Sitemap</a>
+        </div>
+    </footer>
+    <script>
+        // Simulating dynamic content loading
+        document.addEventListener("DOMContentLoaded", function() {
+    const queryParams = new URLSearchParams(window.location.search);
+    const postId = queryParams.get('post');
+
+    const posts = {
+                1: {
+                    title: "The Power of Storytelling in Blogging",
+                    image: "1.jpg",
+                    content: "Storytelling can transform your blog from ordinary to extraordinary by creating a deeper connection with your audience Storytelling engages readers emotionally, making them more likely to remember your message and share it with others.  Use a classic story arc (introduction, conflict, resolution) to guide your posts. Start with a hook, present a problem, and conclude with a solution. Sharing personal experiences can make your content relatable and authentic. Incorporate images, videos, and infographics to complement your narrative and enhance understanding.",
+                    author: "Jane Doe",
+                    date: "October 22, 2024",
+                    tags: ["#Motivation", "#Storys"]
+                },
+                2: {
+                    title: "Latest Fashion Trends in 2024",
+                    image: "2.avif",
+                    content: "In 2024, fashion is all about sustainability and style. From eco-friendly fabrics to bold designs, this year’s trends are setting the stage for a chic and responsible wardrobe.",
+                    author: "Mike Smith",
+                    date: "October 20, 2024",
+                    tags: ["#Fashion", "#Trends"]
+                },
+                3: {
+                    title: "Students moving abroad to study",
+                    image: "3.jpg",
+                    content: "In 2024, fashion is all about sustainability and style. From eco-friendly fabrics to bold designs, this year’s trends are setting the stage for a chic and responsible wardrobe.",
+                    author: "Mr uzzzzz",
+                    date: "October 01, 2024",
+                    tags: ["#football", "#"]
+                },
+                4: {
+    title: "Impact of Social Media on Blogging Success",
+    image: "4..avif",
+    content: "Social media has revolutionized blogging, making it easier than ever for bloggers to reach larger audiences and build loyal communities. Key social media platforms that contribute to blogging success include:\n\n" +
+             "<a href='facebook.html'>1. Facebook</a>\n" +
+             "<a href='instagram.html'>2. Instagram</a>\n" +
+             "<a href='twitter.html'>3. Twitter</a>\n" +
+             "<a href='linkedin.html'>4. LinkedIn</a>\n" +
+             "<a href='tiktok.html'>5. TikTok</a>\n" +
+             "<a href='pinterest.html'>6. Pinterest</a>\n\n" +
+             "By leveraging these platforms, bloggers can increase their reach, connect with their target audience, and enhance their overall blogging success.",
+    author: "Mr uzzzzz",
+    date: "October 01, 2024",
+    tags: ["#SocialMedia", "#BloggingSuccess", "#DigitalMarketing"]
+},
+                5: {
+            title: "Students Moving Abroad to Study",
+            image: "5.jpg",
+            content: `Many countries offer scholarships to attract international students, with Germany and the UK among the top destinations. These countries provide ample opportunities for financial support, quality education, and a supportive student environment. <br><br>
+<strong>1. Germany:</strong> Known for generous scholarship programs and low tuition costs, Germany attracts students in various fields.<br><br>
+<strong>2. <a href="uk.html">UK</a>:</strong> The UK offers numerous scholarship options for international students. Click here to see a list of universities, hostels, and more details for studying in the UK.`,
+
+            author: "Mr Uzzzzz",
+            date: "October 01, 2024",
+            tags: ["#studyAbroad", "#scholarships"]
+        },
+                6: {
+                    title: "Students moving abroad to study",
+                    image: "6..webp",
+                    content: "In 2024, fashion is all about sustainability and style. From eco-friendly fabrics to bold designs, this year’s trends are setting the stage for a chic and responsible wardrobe.",
+                    author: "Mr uzzzzz",
+                    date: "October 01, 2024",
+                    tags: ["#football", "#"]
+                },
+                7: {
+                    title: "Students moving abroad to study",
+                    image: "7.jpg",
+                    content: "In 2024, fashion is all about sustainability and style. From eco-friendly fabrics to bold designs, this year’s trends are setting the stage for a chic and responsible wardrobe.",
+                    author: "Mr uzzzzz",
+                    date: "October 01, 2024",
+                    tags: ["#football", "#"]
+                },
+                8: {
+                    title: "Students moving abroad to study",
+                    image: "8.avif",
+                    content: "In 2024, fashion is all about sustainability and style. From eco-friendly fabrics to bold designs, this year’s trends are setting the stage for a chic and responsible wardrobe.",
+                    author: "Mr uzzzzz",
+                    date: "October 01, 2024",
+                    tags: ["#football", "#"]
+                },
+                9: {
+                    title: "Students moving abroa to study",
+                    image: "9..jpg",
+                    content: "In 2024, fashion is all about sustainability and style. From eco-friendly fabrics to bold designs, this year’s trends are setting the stage for a chic and responsible wardrobe.",
+                    author: "Mr uzzzzz",
+                    date: "October 01, 2024",
+                    tags: ["#football", "#"]
+                },
+            };
+
+            if (posts[postId]) {
+        document.getElementById('post-title').textContent = posts[postId].title;
+        document.getElementById('post-image').src = posts[postId].image;
+        document.getElementById('post-content').innerHTML = posts[postId].content; // Use innerHTML here
+        document.getElementById('post-author').textContent = "Posted by " + posts[postId].author;
+        document.getElementById('post-date').textContent = "Posted on " + posts[postId].date;
+
+        // Setting tags dynamically
+        const tagsContainer = document.getElementById('post-tags');
+        tagsContainer.innerHTML = "";
+        posts[postId].tags.forEach(tag => {
+            const tagElement = document.createElement('span');
+            tagElement.textContent = tag;
+            tagsContainer.appendChild(tagElement);
+        });
+    } else {
+        document.getElementById('post-title').textContent = "Post Not Found";
+        document.getElementById('post-content').textContent = "We're sorry, but the blog post you are looking for doesn't exist.";
+    }
+});
+    </script>
+</body>
+</html>
